@@ -3,10 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homework</title>
     <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/all.css">
 </head>
-<body>
+<body class="p-[20px] max-w-[1250px] m-auto">
     
+    <header>
+        <nav class="flex justify-between">
+            <img class="w-[30%] xl:w-fit" src="./img/Group 796.svg" alt="">
+            <div class="flex items-center px-[20px] bg-[#F4F4F5] gap-3 rounded-md">
+                <h3>Язык</h3>
+                <i class="fa-solid fa-flag"></i>
+            </div>
+        </nav>
+
+        <section class="flex flex-col-reverse xl:flex-row items-center justify-between bg-[#F4F4F5] xl:px-[50px] my-[70px]">
+            <aside class="xl:w-[60%] flex flex-col xl:gap-10 gap-5">
+
+                <div class="flex flex-col gap-5">
+
+                    <h1 class="text-5xl leading-[50px] text-center xl:text-start xl:text-6xl">Подбор работы для граждан СНГ и ЕАЭС</h1>
+                    <h3 class="text-xl text-center xl:hidden">С официальным трудоустройством</h3>
+                </div>
+                <aside class="bg-[#212731] text-white rounded-lg px-5 pt-2 flex items-center justify-between">
+                    
+                    <div class="flex flex-col xl:gap-5 gap-2">
+                        <h2 class="text-2xl xl:text-3xl">Пройдите опрос</h2>
+                        <h3 class="xl:text-xl">Подберем подходящие вакансии с зарплатой <span class="xl:hidden rounded-lg bg-[#28303D] p-1">от 3 000 р</span></h3>
+                        <div class="flex items-center justify-between">
+                            <h2 class="xl:text-2xl hidden xl:block rounded-lg bg-[#28303D] p-1">от 3 000 р</h2>
+                            <p class="text-black bg-white px-[15px] py-2 rounded-lg hidden xl:block">Пройти опрос</p>
+                        </div>
+                    </div>
+                    <img class="hidden xl:inline" src="./img/Group 2181.svg" alt="">
+                </aside>
+
+                <div class="flex items-center gap-5 justify-between xl:justify-start">
+
+                    <h3 class="bg-[#D7B18D] w-[100%] xl:w-fit text-center xl:text-start p-3 rounded-lg">Подобрать работу</h3>
+                    <i class="fa-solid fa-phone text-3xl"></i>
+                </div>
+
+            </aside>
+
+            <img class="xl:w-[40%] hidden xl:inline" src="./img/image 2.svg" alt="">
+
+        </section>
+    </header>
+
+
+    <section class="text-white bg-[#212731] rounded-lg p-5 flex justify-between">
+        <aside class="flex flex-col items-start gap-3 xl:gap-5">
+            <h2 class="text-2xl xl:text-6xl">Рассмотрим всех!</h2>
+            <div class="flex flex-col gap-3 xl:gap-5 xl:flex-row">
+
+                <p class="text-lg p-3 bg-[#28303D] rounded-lg">Без опыта</p>
+                <p class="text-lg p-3 bg-[#28303D] rounded-lg">Без документов</p>
+            </div>
+        </aside>
+        <img class="w-[30%] xl:w-[15%]" src="./img/Group 780.svg" alt="">
+    </section>
+
 </body>
 </html>
+
+<!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
